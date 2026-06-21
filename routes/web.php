@@ -9,6 +9,10 @@ use App\Http\Controllers\PeminjamanController;
 Route::get('/', function () {
     return redirect('/login');
 });
+
+Route::get('/test', function () {
+    return 'Laravel OK Jalan';
+});
 /*
 | LOGIN
 */
